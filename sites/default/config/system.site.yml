@@ -1,0 +1,15 @@
+uuid: 5d3c3c65-8e6b-45a9-9e51-a84c9147fe00
+name: harlitto
+mail: ruslan.piskarev@gmail.com
+slogan: 'harlitto the best'
+page:
+  403: ''
+  404: ''
+  front: /forum
+admin_compact_mode: false
+weight_select_max: 100
+langcode: ru
+default_langcode: ru
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+mail_notification: ''

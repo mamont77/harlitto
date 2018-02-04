@@ -1,0 +1,14 @@
+uuid: 7308fe64-a2ea-43fa-8bc0-61c55bcecbc1
+langcode: ru
+status: true
+dependencies:
+  module:
+    - forum
+id: forum_section
+label: 'Forum Section'
+type: forum
+pattern: 'forum/[term:name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

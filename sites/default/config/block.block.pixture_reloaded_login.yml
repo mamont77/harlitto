@@ -1,0 +1,22 @@
+uuid: 77238da1-3ebe-42c2-ba83-b7767fe57618
+langcode: ru
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - pixture_reloaded
+_core:
+  default_config_hash: jF_eymJTwP4ojXfWVeaLX9XfKiHMsvb28btIRZNVVPU
+id: pixture_reloaded_login
+theme: pixture_reloaded
+region: sidebar_second
+weight: -6
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

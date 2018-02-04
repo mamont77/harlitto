@@ -1,0 +1,22 @@
+uuid: eb01c2eb-d442-4bcb-94b4-882a07ff806a
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pixture_reloaded
+_core:
+  default_config_hash: vLdAQztLhMGUus_-3Qeo3s3CnrFM2q9dHnQv7eQvGXA
+id: pixture_reloaded_content
+theme: pixture_reloaded
+region: content
+weight: 4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

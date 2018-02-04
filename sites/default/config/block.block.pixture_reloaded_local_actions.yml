@@ -1,0 +1,20 @@
+uuid: 8c497200-0bf4-4b50-9f6b-1f5386f94b6b
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - pixture_reloaded
+_core:
+  default_config_hash: aRIUfQQbqlI9lid1wW4drvpghUs9OqjV25Uq58mTOmA
+id: pixture_reloaded_local_actions
+theme: pixture_reloaded
+region: content
+weight: 3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

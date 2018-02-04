@@ -1,0 +1,12 @@
+uuid: 9fe3638e-597a-4dca-9f82-5528d60e1dd2
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: PY9HA-hogF4_qq5gZ-TqZDTixx170-APxTcq4rpa014
+id: public_files
+label: 'Общедоступная папка'
+type: DrupalFiles
+config:
+  name: 'Public Files Directory'
+  directory: 'public://'

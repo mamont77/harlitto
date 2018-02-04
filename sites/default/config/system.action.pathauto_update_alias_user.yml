@@ -1,0 +1,13 @@
+uuid: cfee7aaf-ada6-4069-a984-6c4d86cf961d
+langcode: ru
+status: true
+dependencies:
+  module:
+    - pathauto
+_core:
+  default_config_hash: fWszFHPeJ_dhZ8kJEEWo4w-FQH_etR4AxTQkQCW9OLk
+id: pathauto_update_alias_user
+label: 'Обновить URL-синоним'
+type: user
+plugin: pathauto_update_alias
+configuration: {  }

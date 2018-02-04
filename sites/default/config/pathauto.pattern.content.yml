@@ -1,0 +1,23 @@
+uuid: f6350f89-fb76-4f76-b4f8-5448df7cfad4
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: content
+label: Content
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  83565ea8-0c9c-4d79-9101-3da7fe58bcd5:
+    id: node_type
+    bundles:
+      article: article
+      page: page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 83565ea8-0c9c-4d79-9101-3da7fe58bcd5
+selection_logic: and
+weight: -5
+relationships: {  }

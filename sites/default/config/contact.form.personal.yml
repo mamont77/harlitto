@@ -1,0 +1,13 @@
+uuid: 2525e7a6-7a37-409f-853a-9cdef20e3a9a
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Personal contact form'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Ваше сообщение отправлено.'
+redirect: ''

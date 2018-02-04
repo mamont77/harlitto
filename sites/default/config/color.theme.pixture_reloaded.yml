@@ -1,0 +1,18 @@
+palette:
+  base: '#b61c0c'
+  text: '#383838'
+  link: '#9e190b'
+  headerstart: '#861509'
+  headerstop: '#b61c0c'
+  headercolor: '#fcfcfc'
+  navbar: '#6e1107'
+  navbarhover: '#7c281f'
+logo: 'public://color/pixture_reloaded-1cb8a977/logo.svg'
+stylesheets:
+  - 'public://color/pixture_reloaded-1cb8a977/color.css'
+  - 'public://color/pixture_reloaded-1cb8a977/tabs.css'
+files:
+  - 'public://color/pixture_reloaded-1cb8a977/logo.svg'
+  - 'public://color/pixture_reloaded-1cb8a977/logo.png'
+  - 'public://color/pixture_reloaded-1cb8a977/color.css'
+  - 'public://color/pixture_reloaded-1cb8a977/tabs.css'

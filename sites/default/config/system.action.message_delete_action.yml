@@ -1,0 +1,16 @@
+uuid: 65ac910e-8aa2-4418-9dfa-f099496ca0f8
+langcode: ru
+status: true
+dependencies:
+  enforced:
+    module:
+      - contact_storage
+  module:
+    - contact_storage
+_core:
+  default_config_hash: jZQoNkJeq8A9-hHjrd3s6HE4or1uMGcZ97wa_HF_VeA
+id: message_delete_action
+label: 'Удалить сообщение'
+type: contact_message
+plugin: message_delete_action
+configuration: {  }
