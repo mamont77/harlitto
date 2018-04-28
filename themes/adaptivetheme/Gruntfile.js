@@ -21,14 +21,14 @@ module.exports = function(grunt) {
     },
 
     postcss: {
-      atcore: {
+      at_core: {
         src: 'at_core/styles/css/*.css',
          options: {
           map: {
             inline: false
           },
           processors: [
-            require('autoprefixer')({browsers: 'last 2 versions'})
+            require('autoprefixer')({browsers: 'last 5 versions'})
           ]
         }
       },
@@ -39,7 +39,7 @@ module.exports = function(grunt) {
             inline: false
           },
           processors: [
-            require('autoprefixer')({browsers: 'last 2 versions'})
+            require('autoprefixer')({browsers: 'last 5 versions'})
           ]
         }
       },
@@ -68,7 +68,25 @@ module.exports = function(grunt) {
     },
 
     sass: {
-      atcore: {
+
+      uikit: {
+        files: [{
+          expand: true,
+          cwd: 'styles/uikit/components/stylesheets',
+          src: ['*.scss'],
+          dest: 'styles/css/components',
+          ext: '.css'
+        }],
+        options: {
+          require: 'susy',
+          precision: 5,
+          outputStyle: 'expanded',
+          imagePath: "../css/images",
+          sourceMap: true
+        }
+      },
+
+      at_core: {
         files: [{
           expand: true,
           cwd: 'at_core/styles/sass',
@@ -132,7 +150,7 @@ module.exports = function(grunt) {
     },
 
     csslint: {
-      atcore: {
+      at_core: {
         options: {
           csslintrc: '.csslintrc'
         },
@@ -159,9 +177,9 @@ module.exports = function(grunt) {
     },
 
     watch: {
-      atcore: {
-        files: 'at_core/styles/sass/*.scss',
-        tasks: ['sass:atcore', 'postcss:atcore']
+      at_core: {
+        files: 'at_core/styles/sass/**/*.scss',
+        tasks: ['sass:at_core', 'postcss:at_core']
       },
       layout_plugin: {
         files: 'at_core/layout_plugin/sass/*.scss',
@@ -185,5 +203,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-csslint');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('default', ['watch:atcore']);
+  grunt.registerTask('default', ['watch:at_core']);
 }
